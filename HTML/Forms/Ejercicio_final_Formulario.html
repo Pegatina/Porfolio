@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio final Formulario</title>
+		<script>			
+		</script>
+	</head>
+	<body>
+		<form action="formulario2.html" method="get">
+		<fieldset>
+			<legend>Datos personales</legend>
+			Nombre: &nbsp&nbsp<input type="text" name="nombre"/><br/>
+			Apellidos: <input type="text" name="apell"/><br/>
+			Teléfono: &nbsp<input type="tel" name="tlfn"/><br/>
+			Fecha de nacimiento: <input type="date" name="fecha"/><br/>			
+			<fieldset>
+				<legend>Dirección</legend>
+				Calle: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="calle"/><br/>
+				Número: &nbsp&nbsp<input type="number" name="numero" min="1" max="30"/><br/>
+				Localidad:<input type="text" name="local"/><br>	
+				Provincia: <select  name="provincia">
+				<option>Álava</option>
+				<option>Albacete</option>
+				<option>Alicante</option>
+				<option>Almería</option>
+				<option>Asturias</option>
+				<option>Ávila</option>
+				<option>Badajoz</option>
+				<option>Barcelona</option>
+				<option>Burgos</option>
+				<option>Cáceres</option>
+				<option>Cádiz</option>
+				<option>Cantabria</option>
+				<option>Castellón</option>
+				<option>Ciudad Real</option>
+				<option>Córdoba</option>
+				<option>La Coruña</option>
+				<option>Cuenca</option>
+				<option>Gerona</option>
+				<option>Granada</option>
+				<option>Guadalajara</option>
+				<option>Guipúzcoa</option>
+				<option>Huelva</option>
+				<option>Huesca</option>
+				<option>Islas Baleares</option>
+				<option>Jaén</option>
+				<option>León</option>
+				<option>Lérida</option>
+				<option>Lugo</option>
+				<option>Madrid</option>
+				<option>Málaga</option>
+				<option>Murcia</option>
+				<option>Navarra</option>
+				<option>Orense</option>
+				<option>Palencia</option>
+				<option>Las Palmas</option>
+				<option>Pontevedra</option>
+				<option>La Rioja</option>
+				<option>Salamanca</option>
+				<option>Segovia</option>
+				<option>Sevilla</option>
+				<option>Soria</option>
+				<option>Tarragona</option>
+				<option>Santa Cruz de Tenerife</option>
+				<option>Teruel</option>
+				<option>Toledo</option>
+				<option>Valencia</option>
+				<option>Valladolid</option>
+				<option>Vizcaya</option>
+				<option>Zamora	</option>
+				<option>Zaragoza</option>
+				</select>
+			</fieldset>			
+		</fieldset>
+		<fieldset>
+			<legend>Registro</legend>
+			Usuario: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" name="usuario"/><br/>
+			Contraseña: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" name="contra"/><br/>
+			Repite contraseña: <input type="password" name="contra2"/><br/>	
+		</fieldset>
+		<fieldset>
+			<legend>Aficiones</legend>
+			<input type="checkbox" name="leer"/>Leer
+			<input type="checkbox" name="netflix"/>Netflix
+			<input type="checkbox" name="dormir"/>Dormir
+			<input type="checkbox" name="escribir"/>Escribir<br/>
+		</fieldset>
+		<fieldset>
+			<legend>Deporte</legend>
+			<input type="radio" name="deporte" value="Correr"/>Correr
+			<input type="radio" name="deporte" value="Andar"/>Andar
+			<input type="radio" name="deporte" value="Nadar"/>Nadar
+			<input type="radio" name="deporte" value="Roncar"/>Roncar<br/>
+			Horas de práctica <input type="range" name="horas" min="1" max="24"/><br/>
+		</fieldset>
+		<fieldset>
+			<legend>Sugerencias</legend>
+			<textarea rows="10" cols="40" placeholder="¿Algo que añadir?" name="sugerencias"></textarea>
+		</fieldset>		
+			<input type="submit" value="Enviar"/> 
+			<input type="reset" value="Restablecer"/> 
+		</form>
+	</body>
+</html>
