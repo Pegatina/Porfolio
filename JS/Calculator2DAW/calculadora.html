@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1ª Eval</title>
+    <link rel="stylesheet" href="calculadora.css">  <!--Enlace a css-->
+    <script src="calculadora.js"></script> <!--Enlace a js-->
+</head>
+
+<body>
+    <div id="contenedor">
+    <h1>Calculadora</h1>
+    <input type="text" id="pantalla" onclick="vaciar()">
+    <!--Cuando pulsas se ejecuta la función-->   
+
+    <h3><img src="triangulo1.png" id="img1-1" onclick="mostrar1()";></img>Operaciones unitarias</h3> 
+    <!--Se debe pinchar en el triángulo para mostrar las funciones de cada apartado, los divs estarán ocultos por defecto-->
+   
+    <div id="cont1" style="display:none;">
+         <!--Se introduce el número y al pulsar el botón se tiene que elevar, en el momento en el que se pulsa de nuevo el input se borra el número-->
+        <button id="cuadrado" class="tecla" onclick="cuadrado()">x<sup>2</sup></button>
+         <!--Se introduce el número y al pulsar el botón si es negativo se cambia a positivo-->
+        <button id="modulo" class="tecla" onclick="mod()">|x|</button>
+         <!--Se introduce el número y al pulsar el botón devuelve el factorial de ese número-->
+        <button id="factorial" class="tecla" onclick="fact()">x!</button>
+    </div>
+
+    <h3><img src="triangulo1.png" id="img1-2" onclick="mostrar2()";></img>Operaciones binarias</h3>
+    <div id="cont2" style="display:none;">
+         <!--Se introduce el un número y al pulsar el botón desaparece y se introduce otro número, al pulsar el botón de igual, opera según el operador que hayamos pulsado, suma, resta, multiplicación, división-->
+        <button id="suma" class="tecla" onclick="add()">+</button>
+        <button id="resta" class="tecla"onclick="res()">-</button>
+        <button id="multiplicacion" class="tecla" onclick="mul()">*</button>
+        <button id="division" class="tecla" onclick="div()">/</button>
+        <button id="igual" onclick="eq()">=</button>
+    </div>
+
+    <h3><img src="triangulo1.png" id="img1-3" onclick="mostrar3()";></img>Operaciones en formato CSV</h3>
+    <div id="cont3" style="display:none;">
+         <!--Se introducen números separados por comas-->
+        <button id="sumatorio" class="tecla" onclick="sumatorio()">Σ</button> <!--Al pulsar, los suma-->
+        <button id="ordenar" class="tecla" onclick="ordenar()">1 to 10</button> <!--Al pulsar, los ordena de menor a mayor-->
+        <button id="revertir" class="tecla" onclick="revertir()">10 to 1</button><!--Al pulsar, los ordena de mayor a menor-->
+        <button id="quitar" class="tecla" onclick="quitar()">n-1</button> <!--Al pulsar, quita el último número y la coma-->
+    </div>
+
+    <h3><img src="triangulo1.png" id="img1-4" onclick="mostrar4()";></img>Conversiones de bases</h3>
+    <div id="cont4" style="display:none;">
+        <!--Convierte el número a las diferentes bases, solo acepta los tipos que describe cada botón-->
+        <button id="dec_bi" class="tecla" onclick="dec_binario()">dec /bi</button>
+        <button id="bi_dec" class="tecla" onclick="bi_decimal()">bi /dec</button>
+        <button id="dec_hex" class="tecla" onclick="dec_hex()">dec /hex</button>
+        <button id="bi_hex" class="tecla" onclick="bi_hex()">bi /hex</button>
+    </div>
+    <h2 id="info" class="grande" title="Info sobre el número">Info sobre el número</h2> <!--La clase grande no se usa en ningún momento pero estaba en el ejercicio, la reaprovecho para darle estilo-->
+</div>
+</body>
+
+</html>
