@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Formulario 2</title>
+		<script>			
+			
+			var params = new URLSearchParams(window.location.search);
+			document.write('<table border="5"><thead><caption><h3>Datos personales</h3></caption></thead><tr><th>Nombre</th><th>Apellidos</th><th>Teléfono</th><th>Fecha de Nacimiento</th></tr>');
+			document.write('<tr><td>'+params.get('nombre')+'</td><td>'+params.get('apell')+'</td><td>'+params.get('tlfn')+'</td><td align="center">'+params.get('fecha')+'</td></tr></table>');
+
+			document.write('<table border="5"><thead><caption><h3>Dirección</h3></caption></thead><tr><th>Calle</th><th>Número</th><th>Localidad</th><th>Provincia</th></tr>');
+			document.write('<tr><td>'+params.get('calle')+'</td><td>'+params.get('numero')+'</td><td>'+params.get('local')+'</td><td>'+params.get('provincia')+'</td></tr></table>');
+
+			document.write('<table border="5"><thead><caption><h3>Registro</h3></caption></thead><tr><th>Usuario</th><th>Contraseña</th><th>Contraseña Repetida</th></tr>');
+			document.write('<tr><td>'+params.get('usuario')+'</td><td>'+params.get('contra')+'</td><td>'+params.get('contra2')+'</td></tr></table>');
+
+			document.write('<table border="5"><thead><caption><h3>Aficiones</h3></caption></thead><tr>');
+			if(params.get('leer')=='on'){
+				document.write('<td>'+'leer'+'</td>');
+			}
+			if(params.get('netflix')=='on'){
+				document.write('<td>'+'netflix'+'</td>');
+			}
+			if(params.get('dormir')=='on'){
+				document.write('<td>'+'dormir'+'</td>');
+			}
+			if(params.get('escribir')=='on'){
+				document.write('<td>'+'escribir'+'</td>');
+			}
+			document.write('</tr></table>');			
+
+			document.write('<table border="5"><thead><caption><h3>Deporte</h3></caption></thead><tr>');			
+			document.write('<td>'+params.get('deporte')+'</td><td>'+params.get('horas')+"h"+'</td></tr>');
+
+			document.write('<table border="5"><thead><caption><h3>Sugerencias</h3></caption></thead><tr>');			
+			document.write('<td width="150px" height="50px">'+params.get('sugerencias')+'</td></tr>');
+			
+			
+		</script>
+	</head>
+	<body>		
+	</body>
+</html>
