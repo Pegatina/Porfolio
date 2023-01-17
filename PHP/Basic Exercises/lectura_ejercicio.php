@@ -21,7 +21,7 @@
         die;
     }
 
-    $archivo = fopen('./apuntes/datos.txt', 'r') or die("No existe el archivo.");
+    $archivo = fopen('./datos.txt', 'r') or die("No existe el archivo.");
     // 'r' abre el archivo para lectura con el cursor al principio
 
     // feof comprueba si el cursor está al final del archivo,  file end of file
