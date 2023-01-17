@@ -1,0 +1,112 @@
+#contenedor {
+  height: 300px;
+}
+#banner {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+}
+#botones {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+#medio {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+#logo {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 95px;
+  width: 250px;
+  z-index: 1;
+}
+#bandera{
+    position: absolute;
+    right: 0;
+    top: 262px;
+    z-index: 1;
+    width: 50px;
+}
+.btn {
+  z-index: 1;
+  font-family: Brush Script MT;
+  font-size: 30px;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: #241309; /*corteza*/
+  background-color: #a58065; /*madera*/
+  border-color: #241309;
+  border-radius: 5px;
+}
+.btn:hover{
+  color: white;
+}
+body{
+  background-image: url(fondo2.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+}
+#cuerpo{
+  display: flex;
+  flex-direction: column;
+  
+  width: 500px;
+}
+h1{ 
+  text-align:left;
+  font-family: Brush Script MT;
+  color: #241309;
+  padding-left: 10px;
+}
+h2{
+  text-align:left;
+  font-family: Brush Script MT;
+  color: #a58065;
+}
+p {
+  text-align:left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table{
+  border: 2px solid #a58065;
+  border-collapse: collapse;
+}
+td{
+  border: 2px solid #a58065;  
+  text-align: center;
+}
+.tabla{
+  width: 430px;
+  height: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#paste{
+  width: 860px;
+}
+#cont2{
+  display: flex;
+}
+#contact{
+  width: 200px;
+  padding-left: 40px;
+}
+#mapa{
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+  
+
