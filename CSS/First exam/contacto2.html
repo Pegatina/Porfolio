@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Examen primera eval Lenguaje de Marcas</title>
+		<link rel="stylesheet" href="index.css"/>
+		
+	</head>
+	<body>
+		<h1>PAGINA SUPERSONICA</h1>
+		<p>Tus datos han sido enviados correctamente.<br>
+		Pulse el botón volver para ir al inicio.</p>
+	<script>			
+			var params = new URLSearchParams(window.location.search);
+			document.write('<table border="1"><thead><caption>Datos personales</caption></thead><tr><th>Nombre</th><th>Apellidos</th><th>Telefono</th><th>Email</th><th>Direccion</th><th>Foto</th></tr>');
+			document.write('<tr><td>'+params.get('nombre')+'</td><td>'+params.get('apell')+'</td><td>'+params.get('tel')+'</td><td>'+params.get('email')+'</td><td>'+params.get('calle')+" "+params.get('numero')+", "+params.get('poblacion')+' ('+params.get('provincia')+')</td><td><img src="'+params.get('foto')+'"width="100px" height="100px"/></td></tr>');
+			document.write('<table border="1"><thead><caption>Tus preferencias</caption></thead><tr><th>Deportes</th><th>Categoria</th></tr>');			
+				if(params.get('boxeo')=='on'){
+				document.write('<tr><td>'+'boxeo'+'</td><td>'+params.get('categoria')+'</td>');
+			}
+			if(params.get('K1')=='on'){
+				document.write('<tr><td>'+'K1'+'</td><td>'+params.get('categoria')+'</td>');
+			}
+			if(params.get('UFC')=='on'){
+				document.write('<tr><td>'+'UFC'+'</td><td>'+params.get('categoria')+'</td>');
+			}
+			document.write('</tr></table>');			
+
+			document.write('<h3>Sugerencias</h3>'+params.get('sugerencias'));		
+		</script>	
+		<br><br>
+		<a href="index.html"><input type="button" value="volver"/></a><br><br>
+		<div class="copy">Copyright Profesor Top</div>
+	</body>
+</html>

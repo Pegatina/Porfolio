@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>Examen primera eval Lenguaje de Marcas</title>
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+		<h1>PAGINA SUPERSONICA</h1>
+		<h2><a href="index.html">Inicio</a> &nbsp;<a href="galeria.html">Galeria</a> &nbsp;<a href="videos.html">Videos</a> &nbsp;<span id="in"><a href="">Contacto</a></span></h2>	
+		<div class="formulario">
+			<form action="contacto2.html" method="get">
+				<fieldset>
+					<legend>Datos personales</legend>
+					Nombre: <input type="text" name="nombre"/><br/>
+					Apellidos: <input type="text" name="apell"/><br/>
+					Telefono: <input type="tel" name="tel"/><br/>
+					Email: <input type="email" name="email"/><br/>
+					Foto: <input type="file" name="foto"/>					
+				</fieldset>
+				<fieldset>
+					<legend>Direccion</legend>
+					Calle: <input type="text" name="calle"/> Nº:<input type="number" name="numero" min="1" max="30"/><br/>
+					Poblacion:<input type="text" name="poblacion"/><br>					
+					Provincia: <select  name="provincia">
+					<option>Álava</option>
+					<option>Albacete</option>
+					<option>Alicante</option>
+					<option>Almería</option>
+					<option>Asturias</option>
+					<option>Ávila</option>
+					<option>Badajoz</option>
+					<option>Barcelona</option>
+					<option>Burgos</option>
+					<option>Cáceres</option>
+					<option>Cádiz</option>
+					<option>Cantabria</option>
+					<option>Castellón</option>
+					<option>Ciudad Real</option>
+					<option>Córdoba</option>
+					<option>La Coruña</option>
+					<option>Cuenca</option>
+					<option>Gerona</option>
+					<option>Granada</option>
+					<option>Guadalajara</option>
+					<option>Guipúzcoa</option>
+					<option>Huelva</option>
+					<option>Huesca</option>
+					<option>Islas Baleares</option>
+					<option>Jaén</option>
+					<option>León</option>
+					<option>Lérida</option>
+					<option>Lugo</option>
+					<option>Madrid</option>
+					<option>Málaga</option>
+					<option>Murcia</option>
+					<option>Navarra</option>
+					<option>Orense</option>
+					<option>Palencia</option>
+					<option>Las Palmas</option>
+					<option>Pontevedra</option>
+					<option>La Rioja</option>
+					<option>Salamanca</option>
+					<option>Segovia</option>
+					<option>Sevilla</option>
+					<option>Soria</option>
+					<option>Tarragona</option>
+					<option>Santa Cruz de Tenerife</option>
+					<option>Teruel</option>
+					<option>Toledo</option>
+					<option>Valencia</option>
+					<option>Valladolid</option>
+					<option>Vizcaya</option>
+					<option>Zamora	</option>
+					<option>Zaragoza</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Preferencias</legend>
+					¿Que deporte de contacto prefieres?<br>
+					<input type="checkbox" name="boxeo"/>Boxeo
+					<input type="checkbox" name="K1"/>K1
+					<input type="checkbox" name="UFC"/>UFC<br>
+					¿Que categoria prefieres?<br>
+					<input type="radio" name="categoria" value="junior"/>Junior
+					<input type="radio" name="categoria" value="amateur"/>Amateur
+					<input type="radio" name="categoria" value="profesional"/>Profesional<br/>
+				</fieldset>
+				<fieldset>
+					<legend>Mensaje</legend>
+					Describenos tu opinion<br/>
+					<textarea placeholder="Escribe tu mensaje" name="sugerencias"></textarea>
+				</fieldset>
+		
+				<input type="submit" value="Enviar" /> 
+				<input type="reset" value="Reset" /> 
+			</form>
+		</div>	
+		<div class="copy">Copyright Profesor Top</div>
+	</body>
+</html>
