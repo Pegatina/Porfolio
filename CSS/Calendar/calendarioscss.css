@@ -1,0 +1,52 @@
+
+#tabla1{
+    float: left;
+	padding: 10px;
+    font-family: Arial;
+}
+#tabla1 caption{
+    font-size: 20px;
+	font-weight: bold;
+    font-style: italic;    
+}
+#tabla1 th{
+    line-height: 0px;
+	padding: 8px;
+}
+#tabla1 td{
+    padding-left: 2px;
+    text-align: center;
+}
+.oculto{
+    visibility: hidden;
+}
+#tabla2{
+    font-family: Arial;   
+    border-collapse: collapse;
+    float: left; 
+    margin-left: 40px;   
+}
+#tabla2 caption{    
+    font-size: 20px;
+    font-variant: Small-caps;
+    letter-spacing: 2px;
+    text-align: left;
+}
+#tabla2 th, #tabla2 td{
+    border: 1px solid black;  
+}
+#tabla2 th{
+    text-align: center;    
+}
+#tabla2 td{
+    font-size: 13px;
+    padding-left:5px;
+    padding-right: 28px;
+    padding-bottom: 30px;    
+}
+#tabla2 td:hover{
+    font-size: 20px;
+    padding: 0px;
+    color: red;
+    text-align: center;
+}
