@@ -1,0 +1,189 @@
+#muelle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transition-duration: 1s linear;
+    animation-name: muelle;
+    animation-duration: 2s;
+}
+#cabeza{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 110px;
+    z-index: 20;
+}
+#hacha{
+    position: absolute;
+    width: 200;
+    height: 200;
+    bottom: 75px;
+    right: 225px;
+    z-index: 15;
+    transition-duration: 1s linear;
+    animation-name: hacha;
+    animation-duration: 1s;
+    animation-delay: 4.25s;
+    animation-fill-mode: forwards;
+}
+#cuerpo{
+    position: absolute;
+    width: 200;
+    height: 275;
+    top: 232px;
+    left: 78px;
+    z-index: 10;
+    transition-duration: 2s linear;
+    animation-name: cuerpo;
+    animation-duration: 2s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+}
+#charco{
+    position: absolute;
+    width: 200;
+    height: 415px;
+    bottom: -10px;
+    left: 85px;
+    z-index: 0;
+    opacity: 0%;
+    animation-name: charco;
+    animation-duration: 2s;
+    animation-delay: 7.25s;
+    animation-fill-mode: forwards;
+}
+#tubo2{
+    position: absolute;
+    width: 650px;
+    height: 275;
+    z-index: 10;
+    top: -30;
+    left: 415px;
+}
+#trampilla{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 15px;
+    right: 10px;
+    z-index: 0;
+    transition-duration: 2s linear;
+    animation-name: trampilla;
+    animation-duration: 2s;
+    animation-delay: 3.25s;
+    animation-fill-mode: forwards;
+}
+#bola{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 220px;
+    transition-duration: 2s linear;
+    animation-name: bola;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}    
+#tubo{
+    position: absolute;
+    width: 200px;
+    height: 300;
+    bottom: 130px;
+    right: -10;
+    z-index: 20;
+}
+#bola2{
+    position: absolute;
+    width: 150;
+    height: 150;
+    top: 12px;
+    right: 20px;
+    z-index: 10;
+    transition-duration: 1s linear;
+    animation-name: bola2;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}  
+#trampolin{
+    position: absolute;
+    width: 350;
+    height: 300;
+    bottom: -25px;
+    right: 10px;  
+    z-index: 0;
+    transition-duration: 1s linear;
+    animation-name: trampolin;
+    animation-duration: 1s;
+    animation-delay: 4.25s;
+    animation-fill-mode: forwards;
+} 
+#salpicando{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+    left: 165px;
+    opacity: 0%;
+    z-index: 10;
+    transition-duration: 1s linear;
+    animation-name: salpicando;
+    animation-duration: 0.15s;
+    animation-delay: 5.25s;
+}
+@keyframes muelle {
+    50%{
+        transform: perspective(150px) rotateY(45deg);
+    }
+    100%{        
+        transform: perspective(90px) rotateY(-45deg);
+    }    
+}
+@keyframes bola {
+    100%{
+        transform: translateX(900px);
+    }
+}
+@keyframes trampilla {
+    100%{
+        transform: rotate(90deg);
+    }    
+}
+@keyframes bola2 {
+    100%{
+        transform: translateY(510px);
+    }    
+}
+@keyframes trampolin{
+    100%{
+        transform: skewY(10deg) rotate(15deg);
+    }
+}
+@keyframes hacha {
+    100%{          
+        transform: translateY(-205px) translateX(-1000px) rotate(-360deg) perspective(150px) rotatex(60deg);
+    }
+}
+@keyframes salpicando{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }    
+}
+@keyframes cuerpo{
+    100%{
+        transform: translateY(200px);
+    }
+}
+@keyframes charco{
+    100%{
+        opacity: 100%;
+    }
+}
