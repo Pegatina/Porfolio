@@ -1,5 +1,5 @@
 Eng:
-Collection of exercises to practice Java.
+Collection of exercises to practice Java. The main file is practica1.java.
 Exercise1: It consists of introducing in an Integer ArrayList as many numbers as we want.
 Exercise2: Calculate the maximum, the minimum and the average of the numbers of the ArrayList of the previous exercise.
 Exercise3: Show the character (or characters if it is even-lettered) in the middle of a String.
@@ -12,7 +12,7 @@ Exercise9: Calculates prime numbers according to a given number.
 Exercise10: Receives a number and based on it, if it is prime in the previous exercise determines it and calculates the pairs of twin prime numbers it contains.
 ---------------------
 Esp:
-Colección de ejercicios para practicar Java.
+Colección de ejercicios para practicar Java. El archivo main es practica1.java.
 Ejercicio1: Consiste en introducir en un ArrayList de Integer tantos números como queramos.
 Ejercicio2: Calcula el máximo, el mínimo y la media de los números del ArrayList del ejercicio anterior.
 Ejercicio3: Enseña el carácter (o caracteres si es de letras pares) del medio de un String.
