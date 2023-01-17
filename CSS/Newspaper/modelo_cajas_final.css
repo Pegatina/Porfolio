@@ -1,0 +1,95 @@
+.contenedor{    
+    margin: auto;
+    max-width: 1100px;
+}
+.buscar{
+    position: absolute;
+    top: 10px;
+    right: 425px;
+}
+h1{
+    color: green;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+a{
+    color: royalblue;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cabecera{
+    background-color: grey;
+    height: 40px;
+    width: 920px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: royalblue;
+}
+#cabecera{
+    position: relative;
+    padding-top: 10px;
+    left: 10px;
+}
+span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.columna_izq{
+    float: left;
+}
+.noticias{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 165px;
+    border-style: solid;
+    border-width: thin;
+    border-color: silver;
+}
+.publicidad{
+    position: relative;
+    top: 25px;
+    padding: 10px;
+    background-color: khaki;
+    width: 165px;
+    border-style: dashed;
+    border-width: thin;
+    border-color: red;
+}
+.principal{
+    float: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 510px;
+}
+img{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.ferrari{
+    padding-right: 5px;
+    float: left;
+}
+.lorem{
+    margin-top: 10px;
+    float: left;
+    padding: 10px;
+    width: 140px;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkorange;
+}
+.pie{
+    position: absolute;
+    top: 900px;
+    width: 920px;
+}
+.copy{    
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+}
