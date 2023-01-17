@@ -1,0 +1,29 @@
+#contenedor{
+    position: absolute;   
+    width: 210px;
+    height: 270px;
+    background-color:rgb(58, 34, 64);
+    z-index: 0;    
+}
+#pantalla{
+    position: absolute;
+    background-color:rgb(145, 131, 154);
+    top: 5px;
+    left: 21px;     
+}
+.tecla{
+    position: relative;
+    background-color:rgb(197, 197, 197);
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 30px;
+    margin-top: 5px;
+    z-index: 10;
+}
+#reset, #porciento, #borrar, #dividir, #multiplicar, #restar, #sumar, #signo, #coma{
+    background-color:rgb(157, 157, 157);
+}
+#igual{
+    background-color:rgb(109, 73, 118);
+}
