@@ -1,0 +1,211 @@
+#div0{    
+    background-color: lightgrey;
+    width: 800px;
+    height: 600px;
+}
+#futbol{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+#textofut{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+#baloncesto{
+    position: absolute;
+    top: 90px;
+    left: 85px;
+}
+#textobas{
+    position: absolute;
+    top: 90px;
+    left: 105px;
+}
+#mma{
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+#textomma{
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+#escritura{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+#categoria1{
+    position: absolute;
+    top: 70px;
+    left: 310px;
+}
+#textojun{
+    position: absolute;
+    top: 70px;
+    left: 330px;
+}
+#categoria2{
+    position: absolute;
+    top: 90px;
+    left: 295px;
+}
+#textoama{
+    position: absolute;
+    top: 90px;
+    left: 315px;
+}
+#categoria3{
+    position: absolute;
+    top: 110px;
+    left: 320px;
+}
+#textopro{
+    position: absolute;
+    top: 110px;
+    left: 340px;
+}
+#opciones{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+#prefe{
+    position: absolute;
+    top: 90px;
+    left: 565px;
+}
+#preferencia{
+    position: absolute;
+    top: 90px;
+    left: 645px;
+}
+#suge{
+    position: absolute;
+    top: 190px;
+    left: 265px;
+}
+#sugerencias{
+    position: absolute;
+    top: 170px;
+    left: 350px;
+}
+.cir{    
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;     
+    border-radius: 50%;
+    background-color: white;
+}
+#circulo{
+    position: absolute;
+    top: 250px;
+    left: 320px;
+}
+#encender{
+    position: absolute;    
+    top: 250px;
+    left: 350px;
+}
+p{
+    position: absolute;    
+    top: 270px;    
+}
+#futbol2{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+#textofut2{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+#baloncesto2{
+    position: absolute;
+    top: 370px;
+    left: 85px;
+}
+#textobas2{
+    position: absolute;
+    top: 370px;
+    left: 105px;
+}
+#mma2{
+    position: absolute;
+    top: 390px;
+    left: 100px;
+}
+#textomma2{
+    position: absolute;
+    top: 390px;
+    left: 120px;
+}
+#escritura2{
+    position: absolute;
+    top: 330px;
+    left: 300px;
+}
+#categoria1_2{
+    position: absolute;
+    top: 350px;
+    left: 310px;
+}
+#textojun2{
+    position: absolute;
+    top: 350px;
+    left: 330px;
+}
+#categoria2_2{
+    position: absolute;
+    top: 370px;
+    left: 295px;
+}
+#textoama2{
+    position: absolute;
+    top: 370px;
+    left: 315px;
+}
+#categoria3_2{
+    position: absolute;
+    top: 390px;
+    left: 320px;
+}
+#textopro2{
+    position: absolute;
+    top: 390px;
+    left: 340px;
+}
+#opciones2{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+#prefe2{
+    position: absolute;
+    top: 370px;
+    left: 565px;
+}
+#preferencia2{
+    position: absolute;
+    top: 370px;
+    left: 645px;
+}
+#suge2{
+    position: absolute;
+    top: 450px;
+    left: 265px;
+}
+#sugerencias2{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+}
+#circulo2{
+    position: absolute;    
+    top: 530px;
+    left: 350px;
+}
