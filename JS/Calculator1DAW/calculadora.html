@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Calculadora</title>
+        <link rel="stylesheet" href="calculadora.css">
+	</head>
+	<body>		
+            <div id = contenedor>            
+            <input id="pantalla" disabled> <!--para no poder escribir por teclado-->
+            <button id="reset" class="tecla" onclick="reset()">C</button>    
+            <button id="porciento" class="tecla" onclick="porciento()">%</button>
+            <button id="borrar" class="tecla" onclick="borrar()">&lt;-</button>   
+            <button id="dividir" class="tecla" onclick="dividir()">/</button></br>
+            <button id="7" class="tecla" onclick="pulsar7()">7</button>  
+            <button id="8" class="tecla" onclick="pulsar8()">8</button>  
+            <button id="9" class="tecla" onclick="pulsar9()">9</button>
+            <button id="multiplicar" class="tecla" onclick="multiplicar()">X</button><br>
+            <button id="4" class="tecla" onclick="pulsar4()">4</button>   
+            <button id="5" class="tecla" onclick="pulsar5()">5</button> 
+            <button id="6" class="tecla" onclick="pulsar6()">6</button>   
+            <button id="restar" class="tecla" onclick="restar()">-</button><br>
+            <button id="1" class="tecla" onclick="pulsar1()">1</button> 
+            <button id="2" class="tecla" onclick="pulsar2()">2</button>  
+            <button id="3" class="tecla" onclick="pulsar3()">3</button>    
+            <button id="sumar" class="tecla" onclick="sumar()">+</button><br>
+            <button id="signo" class="tecla" onclick="cambiarSigno()">+/-</button>
+            <button id="0" class="tecla" onclick="pulsar0()">0</button>
+            <button id="coma" class="tecla" onclick="pulsarComa()">,</button> <!--cuidado, igual hay que poner punto-->
+            <button id="igual" class="tecla" onclick="pulsarIgual()">=</button>
+        </div>    
+    <script type="text/javascript" src="calculadora.js"></script>
+	</body>
+</html>
