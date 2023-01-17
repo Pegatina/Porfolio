@@ -1,0 +1,15 @@
+insert into comidas(nombre,comentario,precio)
+values ('Bravas','Muy, muy, muy picantes.','4.50')
+----------------------------------------
+insert into comidas(nombre,comentario,precio)
+values ('Lentejas','De la abuela','7.65')
+----------------------------------------
+delete from comidas
+where nombre = 'Bravas'
+----------------------------------------
+update comidas
+set nombre = 'Lentejas',
+    comentario = 'Del chef'
+    precio = '9.85'
+where nombre = 'Lentejas'
+----------------------------------------
