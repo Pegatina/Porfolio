@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>3 en raya</title>
+    <link rel="stylesheet" href="3enraya.css">
+</head>
+<body>
+    <img id="fondo" src="./Multimedia_3enraya/tablero.jpg">
+    <h1 id="h1">Es el turno del jugador 1</h1>
+    <div id="contenedor">
+        <div class="fichas"> <img id="ficha1" class="j1" src="./Multimedia_3enraya/v.png" onclick="pulsarficha('ficha1')"></div>
+       
+        <div class="fichas"><img id="ficha2" class="j1" src="./Multimedia_3enraya/v.png" onclick="pulsarficha('ficha2')"></div>
+        
+        <div class="fichas"><img id="ficha3" class="j1" src="./Multimedia_3enraya/v.png" onclick="pulsarficha('ficha3')"></div>
+        
+        <div class="fichas"> <img id="ficha4" class="j2" src="./Multimedia_3enraya/x.png"></div>
+       
+        <div class="fichas"><img id="ficha5" class="j2" src="./Multimedia_3enraya/x.png"></div>
+        
+        <div class="fichas"><img id="ficha6" class="j2" src="./Multimedia_3enraya/x.png"></div>
+        
+    </div>
+    <div id="pos1" class="hueco" onclick="guardarficha('pos1')"></div>
+    <div id="pos2" class="hueco" onclick="guardarficha('pos2')"></div>
+    <div id="pos3" class="hueco" onclick="guardarficha('pos3')"></div>
+    <div id="pos4" class="hueco" onclick="guardarficha('pos4')"></div>
+    <div id="pos5" class="hueco" onclick="guardarficha('pos5')"></div>
+    <div id="pos6" class="hueco" onclick="guardarficha('pos6')"></div>
+    <div id="pos7" class="hueco" onclick="guardarficha('pos7')"></div>
+    <div id="pos8" class="hueco" onclick="guardarficha('pos8')"></div>
+    <div id="pos9" class="hueco" onclick="guardarficha('pos9')"></div>
+    <img id="win" src="./Multimedia_3enraya/winner.gif">
+    <script type="text/javascript" src="3enraya.js"></script>
+    <!--Aquí para que se ejecute después de cargar la página-->
+</body>
+</html>
