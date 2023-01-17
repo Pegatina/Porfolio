@@ -1,0 +1,83 @@
+#fondo{
+    position:absolute;
+    width: 700px;
+    height: 567px;
+    z-index: 0;    
+}
+h1{
+    position: absolute;
+    right: 400px;
+    top: -10px;
+    z-index: 10;
+}
+#contenedor{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+    display: flex;
+}
+.j1, .j2{
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    height: 100px;    
+}
+.hueco{
+    position: absolute;
+    z-index: 10;    
+    width: 100px;    
+    height: 100px;
+    border: 4px solid purple;   
+    visibility: hidden;    
+}
+.ocupado{
+    position: absolute;
+    z-index: 10;    
+    width: 100px;    
+    height: 100px;
+    border: 4px solid purple;   
+    visibility: hidden;    
+}
+#pos1{
+    left: 13px;
+    top: 13px;
+}
+#pos2{
+    left: 305px;
+    top: 13px;
+}
+#pos3{    
+    left: 596px;
+    top: 13px;
+}
+#pos4{    
+    left: 13px;
+    top: 238px;
+}
+#pos5{
+    left: 305px;
+    top: 238px;
+}
+#pos6{
+    left: 596px;
+    top: 238px;
+}
+#pos7{
+    left: 13px;
+    top: 463px;
+}
+#pos8{
+    left: 305px;
+    top: 463px;
+}
+#pos9{
+    left: 596px;
+    top: 463px;
+}
+#win{
+    position: absolute;
+    z-index: 20;    
+    width: 70%;
+    height: 80%;
+    visibility: hidden;
+}
