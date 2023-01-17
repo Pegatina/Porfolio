@@ -1,4 +1,5 @@
 Eng:
+Collection of exercises to practice Java.
 Exercise1: It consists of introducing in an Integer ArrayList as many numbers as we want.
 Exercise2: Calculate the maximum, the minimum and the average of the numbers of the ArrayList of the previous exercise.
 Exercise3: Show the character (or characters if it is even-lettered) in the middle of a String.
