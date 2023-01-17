@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Examen 3a Eval</title>
+		<link rel="stylesheet" href="examenLM3.css">
+	</head>
+	<body>
+        <div id ="div0">
+            <div id="div1">
+                <input id="futbol" type="checkbox" value="Futbol" onchange="abajoAficiones()"><label id="textofut">Futbol</label></br>
+		        <input id="baloncesto" type="checkbox" value="Baloncesto" onchange="abajoAficiones()"><label id="textobas">Baloncesto</label></br>
+		        <input id="mma" type="checkbox" value= "MMA" onchange="abajoAficiones()"><label id="textomma">MMA</label></br>
+                <input id="escritura" onkeyup="abajoEscribirAlgo()"><br>                
+                <input id="categoria1" type="radio" name="categoria" value="Junior" onchange="abajoCategoria()"/><label id="textojun">Junior</label></br>
+	            <input id="categoria2" type="radio" name="categoria" value="Amateur"onchange="abajoCategoria()"/><label id="textoama">Amateur</label></br>
+	            <input id="categoria3" type="radio" name="categoria" value="Pro" onchange="abajoCategoria()"/><label id="textopro">Pro</label></br>
+                <select id="opciones" onchange="abajoOpcion()">
+                    <option>opcion1</option>
+                    <option>opcion2</option>
+                    <option>opcion3</option>
+                    <option>opcion4</option>                   
+                </select></br>
+                <label id="prefe">Preferencia: </label><input id="preferencia" type="number" min="0" max="10" onchange="abajoPreferencia()"><br>
+                <label id="suge">Sugerencias: </label><textarea id="sugerencias" rows="2" cols="20" placeholder="Escribe algo..." name="sugerencias" onkeyup="abajoSuge()"></textarea><br>
+                <div id="circulo" class="cir"></div><button id="encender" onclick="enciendeAmbos()">Encender</button>
+            </div>
+            <p>------------------------------------------------------------------------------------------------</p>
+            <div id="div2">
+                <input id="futbol2" type="checkbox" value="Futbol" disabled="disabled"><label id="textofut2">Futbol</label></br>
+		        <input id="baloncesto2" type="checkbox" value="Baloncesto" disabled="disabled"><label id="textobas2">Baloncesto</label></br>
+		        <input id="mma2" type="checkbox" value= "MMA" disabled="disabled"><label id="textomma2">MMA</label></br>
+                <input id="escritura2" disabled="disabled"><br>                
+                <input id="categoria1_2" type="radio" name="categoria2" value="Junior" disabled="disabled"/><label id="textojun2">Junior</label></br>
+	            <input id="categoria2_2" type="radio" name="categoria2" value="Amateur" disabled="disabled"/><label id="textoama2">Amateur</label></br>
+	            <input id="categoria3_2" type="radio" name="categoria2" value="Pro" disabled="disabled"/><label id="textopro2">Pro</label></br>
+                <select id="opciones2" disabled="disabled">
+                    <option>opcion1</option>
+                    <option>opcion2</option>
+                    <option>opcion3</option>
+                    <option>opcion4</option>                   
+                </select></br>
+                <label id ="prefe2">Preferencia: </label><input id="preferencia2" type="number" min="0" max="10" disabled="disabled"><br>
+                <label id="suge2">Sugerencias: </label><textarea id="sugerencias2" rows="2" cols="20" placeholder="Escribe algo..." name="sugerencias" disabled="disabled"></textarea><br>
+                <div id="circulo2" class="cir"></div>
+            </div>
+        </div>		
+		<script type="text/javascript" src="examenLM3.js"></script>        
+	</body>
+</html>
