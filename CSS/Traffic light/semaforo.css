@@ -1,0 +1,282 @@
+#semaforo{
+    width: 300px;
+    position: absolute;
+    left:10px;
+	top:0px;
+    z-index: 20;
+}
+#negro{
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    left: 110px;
+    top: 37px;
+    z-index: 0; /* cuidado, no va con px, el de menor z-index va debajo.*/
+}
+#rojo{
+    width: 90px;
+    height: 95px;
+    position: absolute;
+    left: 116px;
+    top: 38px;
+    opacity: 0; /*se declaran las propiedades antes de animarlas con su estado inicial*/
+    z-index: 10;
+
+    animation-name: rojo, rojo2; /*dos animaciones*/
+	animation-duration:15s, 15s;
+	animation-delay:25s, 65s ; /*retardo al empezar*/
+	animation-iteration-count: 1, 1; /*1, x o infinito*/
+	animation-direction: normal, normal; /*normal o reverse*/
+	animation-timing-function: linear, linear; /*tipo de animación, esta va al mismo ritmo*/
+}
+#ambar{
+    width: 90px;
+    height: 95px;
+    position: absolute;
+    left: 115px;
+    top: 141px;
+    opacity: 0;
+    z-index: 10;
+
+    animation-name: ambar, ambar2;
+	animation-duration:10s, 10s;
+	animation-delay:15s, 55s; /*retardo al empezar*/
+	animation-iteration-count: 1, 1; /*1, x o infinito*/
+	animation-direction: normal, normal; /*normal o reverse*/
+	animation-timing-function: linear, linear; /*tipo de animación, esta va al mismo ritmo*/
+}
+#verde{
+    width: 90px;
+    height: 95px;
+    position: absolute;
+    left: 115px;
+    top: 245px;
+    opacity: 0;
+    z-index: 10;
+
+    animation-name: verde, verde2;
+	animation-duration:15s, 15s;
+	animation-delay:0s, 40s; /*retardo al empezar*/
+	animation-iteration-count: 1, 1; /*1, x o infinito*/
+	animation-direction: normal, normal; /*normal o reverse*/
+	animation-timing-function: linear, linear; /*tipo de animación, esta va al mismo ritmo*/
+}
+#carretera{
+    position: absolute;
+    top: 495px;
+    width: 100%;
+    height: 200px;
+}
+#coche{
+    position: absolute;
+    top: 445px;
+    transition-duration: 2.5s linear;
+    animation-name: coche, coche-anda, coche-sigue;
+    animation-duration: 2.5s, 7.5s, 3s; 
+    animation-delay: 15s, 17.5s, 40s; /*la segunda necesita sumarle el tiempo que dura la transición y cuadrarlo con el inicio del rojo*/
+    animation-direction: normal, normal, normal;
+    animation-timing-function: linear, linear, linear;
+    animation-fill-mode: forwards, forwards, forwards;
+}
+
+@keyframes verde{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1; /*el programa empieza con el verde encendido, al contrario que el resto*/
+
+    }
+    90%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes verde2{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1; /*el programa empieza con el verde encendido, al contrario que el resto*/
+
+    }
+    90%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes ambar{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1;
+
+    }
+    10%{ /*le he dejado un breve momento de encendido total*/
+        opacity:1;
+    }
+    15%{
+        opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    25%{
+        opacity:0;
+    }
+    30%{
+        opacity:1;
+    }
+    35%{
+        opacity:0;
+    }
+    40%{
+        opacity:1;
+    }
+    45%{
+        opacity:0;
+    } 
+    50%{
+        opacity:1;
+    }
+    55%{
+        opacity:0;
+    }
+    60%{
+        opacity:1;
+    }
+    65%{
+        opacity:0;
+    } 
+    70%{
+        opacity:1;
+    }
+    75%{
+        opacity:0;
+    }
+    80%{
+        opacity:1;
+    }
+    85%{
+        opacity:0;
+    }
+    90%{
+        opacity:1;
+    }
+    95%{
+        opacity:0;
+    }
+    100%{
+        opacity: 0;
+    }    
+}
+@keyframes ambar2{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1;
+
+    }
+    10%{
+        opacity:1;
+    }
+    15%{
+        opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    25%{
+        opacity:0;
+    }
+    30%{
+        opacity:1;
+    }
+    35%{
+        opacity:0;
+    }
+    40%{
+        opacity:1;
+    }
+    45%{
+        opacity:0;
+    } 
+    50%{
+        opacity:1;
+    }
+    55%{
+        opacity:0;
+    }
+    60%{
+        opacity:1;
+    }
+    65%{
+        opacity:0;
+    } 
+    70%{
+        opacity:1;
+    }
+    75%{
+        opacity:0;
+    }
+    80%{
+        opacity:1;
+    }
+    85%{
+        opacity:0;
+    }
+    90%{
+        opacity:1;
+    }
+    95%{
+        opacity:0;
+    }
+    100%{
+        opacity: 0;
+    }    
+}
+@keyframes rojo{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1; 
+
+    }
+    90%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes rojo2{ /*declaramos fuera la animación y le damos las acciones por porcentajes*/
+
+    0%{
+        opacity: 1; 
+
+    }
+    90%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes coche {    
+    100%{
+        transform: rotateY(180deg);
+    } 
+}
+@keyframes coche-anda{
+    100%{
+        transform: translateX(600px) rotateY(180deg);
+    }
+}
+@keyframes coche-sigue{    
+    100%{
+        transform: translateX(1200px) rotateY(180deg);
+    }
+}
