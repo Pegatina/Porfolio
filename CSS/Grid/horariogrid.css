@@ -1,0 +1,131 @@
+main{
+	display:grid;
+	width:600px;
+	grid-template-columns:100px 100px 100px 100px 100px 100px; /*6 x 8*/
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-gap:1rem;
+    text-align: center;
+}
+
+#div1, #div2,#div3, #div4, #div5, #div6{
+	background-color:red;	
+    border: 1px solid black;
+}
+#div7{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div8{
+	background-color:purple;	
+    border: 1px solid black;
+    grid-column: 2/2;
+	grid-row:2/5;
+}
+#div9{	
+    border: 1px solid black;    
+}
+#div10{
+	background-color: cyan;	
+    border: 1px solid black;
+    grid-column: 4/4;
+	grid-row:2/4;
+}
+#div11{
+	background-color: green;	
+    border: 1px solid black;
+    grid-column: 5/5;
+	grid-row:2/4;
+}
+#div12{
+	background-color: cyan;	
+    border: 1px solid black;
+    grid-column: 6/6;
+	grid-row:2/4;
+}
+#div13{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div14{	
+    border: 1px solid black;
+}
+#div15{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div16{
+	background-color:orange;	
+    border: 1px solid black;
+}
+#div17{
+	background-color:pink;	
+    border: 1px solid black;
+}
+#div18, #div19{
+	background-color:orange;	
+    border: 1px solid black;
+}
+#div20{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div21{
+    border: 1px solid black;
+    grid-column: 2/7;
+	grid-row:5/5;
+}
+#div22{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div23{
+	background-color:purple;	
+    border: 1px solid black;
+    grid-column: 2/2;
+	grid-row:6/9;
+}
+#div24{
+	background-color:orange;	
+    border: 1px solid black;
+}
+#div25{
+	background-color:pink;	
+    border: 1px solid black;
+}
+#div26{
+	background-color:orange;	
+    border: 1px solid black;
+}
+#div27{
+    border: 1px solid black;
+}
+#div28{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div29{
+	background-color: green;	
+    border: 1px solid black;
+    grid-column: 3/3;
+	grid-row:7/9;
+}
+#div30, #div31{
+    border: 1px solid black;
+}
+#div32{
+	background-color:pink;	
+    border: 1px solid black;
+    grid-column: 6/6;
+	grid-row:7/9;
+}
+#div33{
+	background-color:yellow;	
+    border: 1px solid black;
+}
+#div34{
+    border: 1px solid black;
+}
+#div35{
+	background-color:pink;	
+    border: 1px solid black;
+}
