@@ -1,0 +1,261 @@
+#zombie{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: 10;    
+}
+#brazo{
+    position: absolute;
+    z-index: 30;
+    width: 200px;
+    height: 200px;
+    left: 134px;
+    top: 52px;
+    transition-duration: 1s linear;
+    animation-name: brazo, brazo2, brazo3;
+    animation-duration: 1s, 1s, 1s;
+    animation-delay: 2s, 4s, 6s;
+}
+#cuchillo{
+    position: absolute;
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+    left: 283px;
+    top: 0px;
+    transition-duration: 1s linear;
+    animation-name: cuchillo;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+#diana{
+    position: absolute;
+    width: 40%;
+    right: 0px;
+    bottom: 50px;
+}
+#toro{
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    right: 200px;
+    top: 140px;
+    z-index:10;
+}
+#hacha{
+    position: absolute;
+    z-index: 20;
+    width: 150px;
+    height: 150px;
+    left: 213px;
+    top: 0px;
+    opacity: 0%;
+    transition-duration: 1s linear;
+    animation-name: hacha;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+#bomba{
+    position: absolute;    
+    width: 215px;
+    height: 205px;
+    left: 180px;
+    top: 0px; 
+    opacity: 0%; 
+    z-index: 0; 
+    transition-duration: 2.5s linear; 
+    animation-name: bomba;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+#salpicando{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 375px;
+    top: 203px;
+    opacity: 0%;
+    z-index: 10;
+    transition-duration: 1s linear;
+    animation-name: salpicando, salpicando2;
+    animation-duration: 0.15s, 0.15s;
+    animation-delay: 3s, 5s;
+}
+#cabeza{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 510px;
+    top: 270px;
+    opacity: 0%;
+    z-index: 20;
+    transition-duration: 1s linear;
+    animation-name: cabeza;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+}
+#pecto{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 510px;
+    top: 270px;
+    opacity: 0%;
+    z-index: 20;
+    transition-duration: 1s linear;
+    animation-name: pecto;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+}
+#cinturon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 510px;
+    top: 270px;
+    opacity: 0%;
+    z-index: 20;
+    transition-duration: 1s linear;
+    animation-name: cinturon;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+}
+#izq{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 510px;
+    top: 270px;;
+    opacity: 0%;
+    z-index: 20;
+    transition-duration: 1s linear;
+    animation-name: izq;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+}
+#der{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 510px;
+    top: 270px;
+    opacity: 0%;
+    z-index: 20;
+    transition-duration: 1s linear;
+    animation-name: der;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+}
+@keyframes brazo{   
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes brazo2{   
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes brazo3{   
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes cuchillo {
+    100%{
+        transform: translateY(170px) translateX(695px) rotate(270deg);
+    }    
+}
+@keyframes salpicando {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }    
+}
+@keyframes hacha {
+    0%{
+        opacity: 100%;
+    }
+    
+    100%{
+        opacity: 100%;
+        transform: translateY(185px) translateX(775px) rotate(360deg) rotateY(180deg);
+    }    
+}
+@keyframes salpicando2 {
+    0%{
+        opacity: 0%;
+        top: 175px;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+        top: 175px;        
+    }    
+}
+@keyframes bomba {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+        z-index: 30;
+        transform: translateY(300px) translateX(850px) scale(3);
+    }    
+}
+@keyframes cabeza {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(-500px);
+    }
+}
+@keyframes pecto {
+      0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+        z-index: 0;
+        transform: translateX(-1100px);
+    }
+}
+@keyframes cinturon {
+    0%{
+      opacity: 100%;
+  }
+  100%{
+      opacity: 100%;
+      z-index: 0;
+      transform: translateX(800px);
+  }
+}
+@keyframes izq { /*aunque esto no se vea yo me lo invento*/
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(500px);
+    }
+}
+@keyframes der { /*aunque esto no se vea yo me lo invento*/
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(500px);
+    }
+}
