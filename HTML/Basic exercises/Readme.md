@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Basic exercises in HTML
+
+=======
+# Basic exercises in HTML
+>>>>>>> 0d3e5fe0f384bfc25f3cbf942e74894e380810c0
 ### Eng:
 
 - Ejercicio_final_Listas_HTML.html: HTML list practice.
