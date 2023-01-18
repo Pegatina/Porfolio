@@ -2,5 +2,6 @@
 
 Two calendars with different CSS styles.
 ---------------
-Esp:
+###Esp:
+
 Dos calendarios con distintos estilos en CSS.

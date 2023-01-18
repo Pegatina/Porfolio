@@ -8,7 +8,8 @@ Game of life, main Simulacion.java, there we can instantiate a simulation object
 
 PS: The game is without a loop because, in that state, it would never end.
 -------------------
-Esp:
+###Esp:
+
 Juego de la vida, main Simulacion.java, allí se instancia una simulación con ancho y alto, se crean tantas celdas vivas se quieran y se accede a los métodos de imprimir() y continuar() hasta que no quede ninguna célula viva según las siguientes reglas: 
 1. si está viva la celda pero tiene menos de 2 vecinos vivos la celda muere.
 2. si está viva y tiene 2 o 3 vecinos la celda vive.
