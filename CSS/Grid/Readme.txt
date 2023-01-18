@@ -1,7 +1,7 @@
-###Eng:
+### Eng:
 
 Schedule created with display:grid.
 ___
-###Esp:
+### Esp:
 
 Horario creado con display:grid.

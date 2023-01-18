@@ -1,4 +1,4 @@
-###Eng:
+### Eng:
 
 Collection of exercises to practice Java. The main file is practica1.java.
 Exercise1: It consists of introducing in an Integer ArrayList as many numbers as we want.
@@ -12,7 +12,7 @@ Exercise8: Tells the current date and time.
 Exercise9: Calculates prime numbers according to a given number.
 Exercise10: Receives a number and based on it, if it is prime in the previous exercise determines it and calculates the pairs of twin prime numbers it contains.
 ___
-###Esp:
+### Esp:
 
 Colección de ejercicios para practicar Java. El archivo main es practica1.java.
 Ejercicio1: Consiste en introducir en un ArrayList de Integer tantos números como queramos.

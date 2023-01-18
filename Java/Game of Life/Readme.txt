@@ -1,4 +1,4 @@
-###Eng:
+### Eng:
 
 Game of life, main Simulacion.java, there we can instantiate a simulation object with width and height, as many live cells as desired are created and the print() and continue() methods are accessed until there are no live cells left according to the following rules: 
 1. if the cell is alive but has less than 2 live neighbours the cell dies.
@@ -8,7 +8,7 @@ Game of life, main Simulacion.java, there we can instantiate a simulation object
 
 PS: The game is without a loop because, in that state, it would never end.
 ___
-###Esp:
+### Esp:
 
 Juego de la vida, main Simulacion.java, allí se instancia una simulación con ancho y alto, se crean tantas celdas vivas se quieran y se accede a los métodos de imprimir() y continuar() hasta que no quede ninguna célula viva según las siguientes reglas: 
 1. si está viva la celda pero tiene menos de 2 vecinos vivos la celda muere.
