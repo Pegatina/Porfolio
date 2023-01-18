@@ -1,6 +1,6 @@
 # Restaurant
 ### Eng:
-Web application for home ordering for a restaurant.
+Web application for delivery in a restaurant.
 The application must allow:
 - Consult categories (meats, salads, pasta, etc) and select them.
 - Consult the dishes of a selected category.
@@ -14,6 +14,8 @@ Databases:
 - users (name, password, e-mail)
 - dishes (code, category, name, description and price)
 - orders (user, date and dishes).
+
+The application automatically generates the menu based on the data in the DB, as well as the drop-down menus, stores the choice in a session array and displays it before payment.
 ___
 ### Esp:
 Aplicación web de pedidos a domicilio para un restaurante.
@@ -30,3 +32,5 @@ Bases de datos:
 - usuarios (nombre, contraseña, correo)
 - platos (código, categoría, nombre, descripción y precio)
 - pedidos(usuario, fecha y platos).
+
+La aplicación genera automáticamente el menú en base a los datos de la BBDD, así como los desplegables, almacena la elección en un array de sesión y lo desglosa antes de pagar.
