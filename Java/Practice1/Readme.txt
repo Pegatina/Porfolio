@@ -11,7 +11,7 @@ Exercise7: Calculates the area of a triangle given the sides.
 Exercise8: Tells the current date and time.
 Exercise9: Calculates prime numbers according to a given number.
 Exercise10: Receives a number and based on it, if it is prime in the previous exercise determines it and calculates the pairs of twin prime numbers it contains.
----------------------
+___
 ###Esp:
 
 Colección de ejercicios para practicar Java. El archivo main es practica1.java.

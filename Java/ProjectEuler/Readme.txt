@@ -4,7 +4,7 @@ Some exercises taken from projecteuler.net.
 Fibonacci_pares.java: Find all even numbers according to the Fibonacci sequence, up to 4.000.000.
 Multiplos.java: ind numbers up to N (1000), if it is a multiple of 3 or 5 add it.
 Primos.java: Get the prime factors of a number.
----------------------
+___
 ###Esp:
 
 Algunos ejercicios sacados de projecteuler.net.

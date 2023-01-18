@@ -6,7 +6,7 @@ cursos.php: Page that assigns students by checking that there are students in th
 dni.php: Page that completes and stores DNIS in a DB, the user writes his dni without letter and the letter is calculated with a SQL table and registered in another SQ table through MySQLi.
 hotel.php: Page that allows you to modify the occupants and the status of the rooms and shows you how many rooms are in each of the 3 types using PDO.
 libreria.php: Page that allows to register books, if the ISBN of the book already exists, it adds one more existence to the database, if not, it inserts it in the database through PDO.
---------------
+___
 ###Esp:
 
 ajedrez.php: Página que actualiza los índices de los jugadores de una partida de ajedrez en su base de datos correspondiente, mediante el radiobutton se selecciona el ganador y se escriben los jugadores, si están en la base de datos ambos, se actualiza la base mediante MySQLi, se pueden comprobar los índices de los jugadores y los próximos a combatir con el botón correspondiente.
