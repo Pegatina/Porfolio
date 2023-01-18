@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 3 in a row game, click on the pieces corresponding to the turn and click on the hole to occupy, when all the pieces have been played, click on those on the board, and so on until someone wins.
 ---------------
 Esp:

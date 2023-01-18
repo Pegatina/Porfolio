@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Uso_Banco.java is the Main file of the application, which consists of banks with accounts, savings accounts and credit accounts, each type of account has specific attributes and methods, and in the main class the accounts are added to the banks in arrays, through requests to the user, whose input is checked so that the accounts are valid, if they are not, it insists until they are.
 
 Once the banks have been filled with their accounts, a series of probabilities are made to see if interest is applied, if the list of defaulters (debtors) is updated or removed, or if a random transfer is made between two banks.

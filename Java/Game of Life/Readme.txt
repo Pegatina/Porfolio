@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Game of life, main Simulacion.java, there we can instantiate a simulation object with width and height, as many live cells as desired are created and the print() and continue() methods are accessed until there are no live cells left according to the following rules: 
 1. if the cell is alive but has less than 2 live neighbours the cell dies.
 2. if it is alive and has 2 or 3 neighbours the cell lives.

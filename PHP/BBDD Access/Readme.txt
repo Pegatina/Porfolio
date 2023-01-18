@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 ajedrez.php: Page that updates the indexes of the players of a chess game in its corresponding database, by means of the radiobutton the winner is selected and the players are written in the inputs, if they are in the database both, the database is updated through MySQLi, the indexes of the players and the next ones to fight can be checked with the corresponding button.
 comidas.php: Page that allows owners to add, remove and modify dishes from their menu, connected to a DB through MySQLi and a modificaciones.txt log (provided as an example).
 cursos.php: Page that assigns students by checking that there are students in the database to the courses selected through MySQLi.

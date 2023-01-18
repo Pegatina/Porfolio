@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Game whose Main class is Arena.java, with two players who enter their name by console, two monsters (classes derived from an abstract class) with their life, damage, two types (interfaces) and two attacks. The game allows to choose the attacks in each turn and shows the effectiveness and the remaining life, when one of the two reaches 0, the game is over.
 --------------------
 Esp:

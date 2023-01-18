@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 A simple goose game with players, counters and dice, it plays until one of the counters reaches exactly the 63rd square. If they go beyond that square, they move back and continue playing.
 
 Oca2.java is a more advanced version, with four players and two dices.

@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Cinema made on a single website, with a prompt requesting the number of tickets, whereby it is not possible to book more than 10 tickets at a time. Once the number of tickets has been entered, a counter is displayed with the number of tickets and seats to be reserved, if you click on a seat it is reserved and disabled, the screen continues to let you choose seats until the counter reaches 0, then you can enter reservations again.
 ------------------------
 Esp:

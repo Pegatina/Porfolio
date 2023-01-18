@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Tablero.java is the Main file of the chess set, the pieces and squares are developed in different classes, as well as the possible moves, it would be better to implement it in a graphical interface.
 -----------------------------------
 Esp:

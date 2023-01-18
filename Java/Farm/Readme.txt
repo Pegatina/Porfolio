@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Farm whose main file is Uso_granja.java, Farms have a species, farmers have a name and a farm and plants have a species and a state. Plants can be planted or watered by farmers, if the seed corresponds to the farm type and is watered, it grows until it can't grow any more.
 ---------------------
 Esp:

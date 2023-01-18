@@ -1,4 +1,5 @@
-Eng:
+###Eng:
+
 Graphic goose game that consists of clicking the token in the square of the board in which it is, if you click on any other square you lose and start again, the token moves forward according to the route. If you reach the finish line, the congratulations page appears directly.
 -----------------
 Esp:
